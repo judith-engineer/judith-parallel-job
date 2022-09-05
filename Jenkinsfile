@@ -8,9 +8,8 @@
     }
   stage('parallel-level'){
     parallel{
-      stage('sub-job1 abisola'){
-        steps{pipeline{
-
+      stage('sub-job1 judith'){
+        steps{
           echo "sub-job1 task"
         }
       }
